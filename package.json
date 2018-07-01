@@ -1,5 +1,5 @@
 {
-  "name": "exec.cmd",
+  "name": "simple-cmd",
   "version": "1.0.0",
   "description": "Tiny library to run and view cli commands from node",
   "main": "index.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scotway/exec.cmd.git"
+    "url": "git+https://github.com/scotway/simple-cmd.git"
   },
   "keywords": [
     "exec",
@@ -30,9 +30,9 @@
   "author": "Scott Conway",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/scotway/exec.cmd/issues"
+    "url": "https://github.com/scotway/simple-cmd/issues"
   },
-  "homepage": "https://github.com/scotway/exec.cmd#readme",
+  "homepage": "https://github.com/scotway/simple-cmd#readme",
   "dependencies": {
     "jest": "^23.2.0",
     "lodash": "^4.17.10"
