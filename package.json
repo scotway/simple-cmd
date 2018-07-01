@@ -1,0 +1,40 @@
+{
+  "name": "exec.cmd",
+  "version": "1.0.0",
+  "description": "Tiny library to run and view cli commands from node",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "testOne": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "moduleDirectories": [
+      "node_modules"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scotway/exec.cmd.git"
+  },
+  "keywords": [
+    "exec",
+    "command",
+    "cli",
+    "output",
+    "unix"
+  ],
+  "author": "Scott Conway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scotway/exec.cmd/issues"
+  },
+  "homepage": "https://github.com/scotway/exec.cmd#readme",
+  "dependencies": {
+    "jest": "^23.2.0",
+    "lodash": "^4.17.10"
+  }
+}
